@@ -1,4 +1,3 @@
-require('dotenv').config();
 let newsContainer = document.getElementById("newsContainer");
 
 let apiKey = "45d8e1b8fffe45ec89c71e37e7511bc5";
