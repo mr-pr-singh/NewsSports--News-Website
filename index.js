@@ -1,14 +1,12 @@
 let newsContainer = document.getElementById("newsContainer");
 
-let apiKey = "45d8e1b8fffe45ec89c71e37e7511bc5";
-
 
 function fetchNews() {
 
     // instantiate xhr object
     const xhr = new XMLHttpRequest();
 
-    xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=${apiKey}`, true);
+    xhr.open('GET', "sample.json", true);
 
     xhr.onload = function () {
         if (this.status === 200) {
